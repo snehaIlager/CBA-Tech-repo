@@ -1,0 +1,59 @@
+difference betwee javascript and java - javascript is scripting language , type script is extended version of javascript that comes with compiler, javascript is used for handling server side
+2 ways to use javascript - 
+js is interpretable language, python is interpreter language tht needs software to be downloaded,
+learn about compiler language and interpretable language
+js interpretable language where we can get output on console as well as browser,
+for static display on browser we use html
+html is for building interface.layout,content
+js is programmming language used to make page more interactive
+how javascript works in browser?? if  a page is loaded on the browser, browser reading the html content 
+button is a javascript event 
+linking javascript into html - 2 ways 
+one is internal that is written in the body tag
+suggested internally only when there is less code
+one is external that is making sepearte .js file 
+
+debugging - using console.error() console.debug() console.error()
+
+
+VAIRIABLES & DATATYPES:
+
+datatypes:
+ 
+7 primitive data types(the rest 2 include object and array)
+in js String => "KLM"
+ number => 123
+ Boolean => true or false
+ NUll value
+undefined => undefined
+type script supports multiple datatypes and its a compiler language
+
+what is scope of variables 
+var is function scoped
+let is block scoped
+const is block scoped and cant be reassigned
+
+
+type conversion
+2 types - implicit and explicit
+
+html comment <!-- -->
+
+ARITHMETIC OPERATORS
++,-,*,/(quotient),%(remainder),** exponentiation, ++ increment , -- decrement
+
+ASSIGNMENT OPERATORS
+= , += left operand added to right operand and answer stored in left operand i.e known as unary operand
+-=, *= , /= , %=
+
+COMPARISON OPERATORS 
+== (loose equal to,checks only the value)
+===(strict equal to,check even the type and value)
+2 == "2" - true
+2 === "2" - flase
+
+!= , !== , < ,> , <= , >=
+
+logical operators
+and && , or || , not ! , ` not negation Or( either true)
+
