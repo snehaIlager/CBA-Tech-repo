@@ -1,0 +1,24 @@
+Arrays - we dont hv to specify size of array like in java,
+we can access array by index number,
+array supports multiple data types in javascript but in java it doesnt
+
+forEach(weekdays(arrayname),function(day){
+document.write(day + "<br>");
+});
+
+weekdays.forEach(function(day){
+document.write(day +"<br>");
+});
+
+pushing data to array :
+weekdays.push("satirday", "sunday");
+adding elements at the end
+
+mixed values array :
+console.log can accept any type of data and print but document.write cant
+
+
+arrayname.shift() - removes first elemnt
+arrayname.unshift("value") - adds at first elemnt
+arrayname.splice(2,1,"hehe") - its going to insert at 2 , starting from 1 position , if it was 1 ,3 it would start from 1 position and go till 3 and replac it with hehe
+arrayname.slice() -  returns new array from start of position

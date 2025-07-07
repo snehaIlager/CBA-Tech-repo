@@ -1,0 +1,21 @@
+difference between while and do while-
+d0 while always exceutes even if codtion is not satisfied and hwile block runs code even if condition is not satisfied.
+
+ternary operator - like if else statement
+
+break and continue in loops :
+in continue suppose we are iterating numbers and in print if i  == 3 it will skip that number and goes to next  number
+in break the loops ends at 3 and doesnt prints further
+
+
+declare and calling functions :
+
+
+arrow funtion is a concise way of writing function
+we can store output in variable if its return type
+arrow function used mainly for those functions that could be used as variable and 
+if we want to parse const ,concsie way ,for modern use,arrow function used for making code convinient
+
+
+old javascript we used to use 'var '
+

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        
+    </head>
+    <body>
+        <script>
+            let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday"];
+            let weekend = ["Saturday", "Sunday"];
+            document.write("<h1>weekdays</h1>");
+            document.write("the element at index 1 is: " + weekdays[1] + "<br>");
+            weekday[1] = "wedenesday";
+
+            document.write("the element at index 1 is now: " + weekdays[1] + "<br>");
+            for (let i =0 ; i <weekdays.length ; i++) {
+                document.write("the element at index " + i + " is: " + weekdays[i] + "<br>");
+            }
+
+            weekdays.push("Friday");
+            document.write("<h1>weekdays after adding Friday</h1>");
+            weekdays.forEach(function(day) {
+                document.write(day + "<br>");
+            });
+
+
+        </script>
+    </body>
+</html>
