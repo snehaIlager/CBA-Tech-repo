@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dynamic Event Example</title>
+    </head>
+    <body>
+        <script>
+            function getName(name){
+                alert("Hello" + name);
+            }
+
+            function getUserInput(clback)
+            {
+                const name = prompt("enter your name");
+                clback(name);
+            }
+
+            getUserInputName(getName);
+        </script>
+    </body>
+</html>

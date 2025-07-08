@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Key up</title>
+    </head>
+    <body>
+        <input type = "text" id = "somemessage" placeholder = "type some message..">
+        <p id = "displayText"></p>
+
+        <script>
+            document.getElementById("somemessage").addEventListener("keyup",function(e){
+               document.getElementById("displayText").textContent= "your typed text is:" + e.target.value;
+            });
+
+        </script>
+    </body>
+</html>

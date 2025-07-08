@@ -22,3 +22,5 @@ arrayname.shift() - removes first elemnt
 arrayname.unshift("value") - adds at first elemnt
 arrayname.splice(2,1,"hehe") - its going to insert at 2 , starting from 1 position , if it was 1 ,3 it would start from 1 position and go till 3 and replac it with hehe
 arrayname.slice() -  returns new array from start of position
+arrayname.pop() - 
+arrayname.map() - transforms each elemnt to an array of new value

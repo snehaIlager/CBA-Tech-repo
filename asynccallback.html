@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Asynchronous call back function</title>
+    </head>
+    <body>
+
+        <script>
+            function greetMessage()
+            {
+                document.write("Hello in 2 seconds");
+
+            }
+
+            function getValues()
+            
+            {
+                document.write(value + "<br>");
+            }
+
+            function getAddedValues(x,y,callback){
+             const sum = x + y ;
+             callback(sum);
+            }
+
+            getAddedValues(3,4,getValues);//sync call back
+            getAddedValues(greetMessage, 3000);//sync call back
+
+            //setTimeout(greetMessage, 2000);//async call back
+        </script>
+    </body>
+</html>

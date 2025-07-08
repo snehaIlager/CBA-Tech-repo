@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dyanmic Event Example</title>
+</head>
+<body>
+    <button id = "btn">Click Me</button>
+
+    <script>
+    document.getElementById("btn").addEventListener("click")
+    alert("data saved successsfully");
+    document.getElementById("btn").innerHtml = "saved";
+    document.getElementById("btn").style.color = "red";
+    </script>
+</body>

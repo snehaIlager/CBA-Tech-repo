@@ -1,0 +1,54 @@
+object
+nested object :
+ 
+
+id selector : dom model is a virtual model that helps link id in html to script code
+innerHtml is a property
+getElementById when there is id for html tag
+
+
+Query Selector: when there is clas give for html tag
+document.querySelector(".ourclassname")
+
+
+synchronous javascript and asynchronous javascript:
+javascript could be wriiten any where like in html within <script> tag ,where code is written randomly
+so how is this managed?
+
+in javascript theres no such thing as main method
+javascript is a single threaded , non blocking (theres no obstacle i.e it is synchornous)scripting language
+we use call back functions 
+the keyup event : it is synchronous the output was immediately visible
+asynchronous : i will email , reciver will see and reply when he will see on his will 
+in synchronous chat application data sending and reciveing immeditaley
+asynchronous emails
+
+if we say js to read file , 
+for asynchronous we need to wait : to handle asynchronous operations we have call back functions
+asynchronous operations like opening a file,
+call back functions : we have function as a function parameter, function argument to another function
+functions could be passed to arguemnts , 
+call back necessary bcz js is asynchronous and non blocking 
+call back tells to wait for the task to be completed
+till the task finishes , preventing the block to the main thread is done by the call back
+asynchronous implemented through call back function , in call back function one function calls other function as parameters
+we can use this in event handling ,
+were at resturant placng order like pizza or smtg ,we wont get it immeditaly , we first order it amd then we get the dish and that time the call back function is excuted while we call
+
+asynchronous call back :
+setTimeout(functionname , 5000(any time we need))
+
+
+call back function with parameters :
+
+
+
+
+
+
+in javascript we have prompt function that prompts the user to 
+
+
+
+
+
