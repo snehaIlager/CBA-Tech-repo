@@ -1,0 +1,30 @@
+low level langugae : C , assembly 
+high level langugae : pythonn , java , c++
+
+logic techniques: 
+flow chart: visual represemtaion using shapes
+pseudocode:english like code structure
+decision making: if , else , switch statements
+loops/iteration: for , while loops
+modularization:fns  for code reuse
+
+OOPS based on object and classes.(object is a real world entity which may exist or may not exist , a photo on wall who is expired but photo tells object and the description of the photo , state of the object is no more)
+resuability , accessibility
+
+four principles :
+encapsulation : data + methods in a class
+abstraction : hiding internal details
+inheritance : child class inherits from parent
+polymorphism : one function , many forms
+
+
+class Exam {
+int marks;
+string pass;
+string fail;
+}
+
+
+encapsulation : wrapping  inother languages we use keyword like private but in python we use double underscore like self.__empid , self.__salary
+
+__init __ is for initialising constructor
