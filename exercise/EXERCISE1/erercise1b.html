@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Write a program injavascript to check number is even or odd using if else if</title>
+    </head>
+    <body>
+        <h1>Enter two numbers</h1>
+        <input type = "number " id = "num1" placeholder = "enter the number">
+        <button id = "b1"> check (even or odd)</button>
+        <p id = "result"></p>
+
+        <script>
+            document.getElementById("b1").addEventListener("click" , function() {
+                let number = Number(document.getElementById("num1").value);
+                let message = "";
+
+                if (number % 2 == 0){
+                    message = number  + "is an even number.";
+                }
+                else{
+                    message = number + "is an odd number.";
+                }
+
+                document.getElementById("result").innerText = message;
+            })
+        </script>
+    </body>
+    </html>

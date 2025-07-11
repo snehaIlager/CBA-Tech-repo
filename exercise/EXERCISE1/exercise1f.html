@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>calculator</title>
+    </head>
+    <body>
+    
+            <h1>Caluclator</h1>
+            <input type = "number" id = "num1" placeholder ="enter number1">
+            <input type = "text" id = "sign" placeholder = "enter the operation">
+            <input type ="number" id="num2" placeholder ="enter number2"><br><br>
+            <button onclick = calculation()>CALCULATE</button><br> <br>
+            <input type = "number" id = "result" placeholder = "result" readonly>
+        
+         <script>
+            function calculation(){
+                let num1 = Number(document.getElementById("num1").value);
+                let num2 = Number(document.getElementById("num2").value);
+                let sign = document.getElementById("sign").value;
+                let result = 0;
+                switch(sign){
+                    case "+":
+                        result = num1 + num2;
+                        break;
+                        case "-":
+                            result = num1 - num2;
+                            break;
+                    case "*":
+                        result = num1 * num2;
+                        break;
+                    case "/":
+                        result = num1 / num2 ;
+                        break;
+                    default:
+                        "INvalid operator";
+
+                }
+
+                 document.getElementById("result").value = result;
+            }
+         </script>
+    </body>

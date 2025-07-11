@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> PROGRAM TO REVERSE A STRING</title>
+    </head>
+    <body>
+        <h1>Enter a string to reverse:</h1>
+        <input type="text" id="string" placeholder ="enter the string to reverse">
+        <button onclick="reverse()">Reverse String</button>
+        <h1>The reversed string is:</h1>
+        <input type="text" id="result" placeholder ="revrsed string is:"readonly>
+
+        <script>
+            function reverse(){
+                let inputString = document.getElementById("string").value;
+                let reversedString = "";
+
+                for (let i = inputString.length - 1; i >= 0; i--) {
+                    reversedString += inputString[i];
+                }
+
+                document.getElementById("result").value = reversedString;
+            }
+        </script>
+    </body>
+</html>

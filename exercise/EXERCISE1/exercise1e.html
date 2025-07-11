@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Grades of students</title>
+    </head>
+    <body>
+        <h1>Enter the marks</h1>
+        <input type = "number" id = "marks" placeholder = "Enter marks out of 100"><br> <br>
+        <button onclick = calculation()>Check Grade</button>
+        <p>Grade:</p>
+        <input type = "text" id = "result" placeholder = "Grade will be displayed here" readonly>
+
+        <script>
+          function calculation(){
+            let marks = Number(document.getElementById("marks").value);
+            let grade = (marks >= 90) ? "A+" : 
+                        (marks >= 80) ? "A" : (marks >= 70) ? "B" : (marks >= 60) ? "C": D;
+
+                        document.getElementById("result").value = grade;
+
+          }
+        </script>
+    </body>

@@ -1,0 +1,14 @@
+encapsulation : wrapping up objects's essential features
+super keyword allows us to super class
+
+abstraction: hiding main data of class so tht other classes cant access it, imp features making it available
+
+polymorphism : method overriding
+eg : we have animal class and cat as 
+animal behaviour : drink eat walk run - methods
+and theres elpehant class and even elephant eats grass -method
+
+
+2 types: method overriding (run time polymorphism) and dynamic typing (duck typing)
+
+in runtime we have concept of inheritance but in duck typing we dont

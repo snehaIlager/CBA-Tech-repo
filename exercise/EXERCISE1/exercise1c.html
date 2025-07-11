@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>generate sum of user input numbers with while and for loop</title>
+    </head>
+    <body>
+        <h1>
+            enter numbers to generate sum:
+        </h1>
+        <input type = "text" id = "num1" placeholder="enter input numbers"> <br> <br>
+        <button onclick = "sumWithFor()">generate sum</button><br><br>
+        <input id="result" placeholder="sum of input numbers is:" readonly>
+
+        <script>
+          function sumWithFor() {
+            let input = document.getElementById("num1").value;
+            let numbers = input.split(',').map(Number);
+            let sum = 0;
+
+            for (let i = 0; i < numbers.length; i++) {
+                sum += numbers[i];
+            }
+
+            document.getElementById("result").value = "sum is:" + sum;
+          }
+        </script>
+    </body>
+</html>

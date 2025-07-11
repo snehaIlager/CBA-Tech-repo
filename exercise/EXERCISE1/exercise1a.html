@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>write a program to check input number is largest or smallest</title>
+    </head>
+    <body>
+        <h1>Enter two numbers:</h1>
+        <input type="number" id = "num1" placeholder="Enter first number">
+        <input type="number" id = "num2" placeholder="Enter second number"> <br> <br>
+        <button id = "b1">check</button>
+        <p id = "result"></p>
+
+        <script>
+            document.getElementById("b1").addEventListener("click", function(){
+              let firstNumber = Number(document.getElementById("num1").value);
+              let secondNumber = Number(document.getElementById("num2").value);
+
+              let message ="";
+
+              if(firstNumber > secondNumber){
+                message = firstNumber + "is the largest and " +secondNumber + "is the smallest.";
+              }
+              else if(secondNumber > firstNumber){
+                message = secondNumber + "is the largest and" +firstNumber + "is the smallest.";
+              }
+                else{
+                    message = "Both numbers are equal.";
+              }
+
+              document.getElementById("result").innerText = message;
+            })
+        </script>
+    </body>
