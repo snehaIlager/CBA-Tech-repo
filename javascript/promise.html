@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang  = 'en'>
+    <head>
+        <title>Promise call back function</title>
+    </head>
+    <body>
+        <script>
+         fetch("https://jsonplaceholder.typicode.com/posts/1")
+.then(response => response.json()) //converts response to json
+.then(data => console.log(data))  //displays post data
+.catch(error => console.error("Error:",error)); 
+        </script>
+    </body>
+</html>

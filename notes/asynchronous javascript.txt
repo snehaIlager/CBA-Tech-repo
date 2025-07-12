@@ -1,0 +1,60 @@
+Asynchronous Javascript:
+Introduction to call backs
+Promises and .then()/.catch()
+async/await
+basic example with fetch() API
+
+SYNCHRONOUS CODE:
+runs line by line , each line waits for previous one to finish.
+eg:console.log("a);
+   console.log("b");
+   console.log("c");
+
+ASYNCHRONOUS CODE:
+handles long tasks
+some tasks like fetching data from internet take time , so we dont want whole program to pause and wait , instaed , javascript lets those tasks run in background and moves on with other work.
+eg: setTimesout(),fetching data from API,reading a file
+
+CALL BACKS : oldest way to do async work DDISADVANTAGE : if we keep calling nesting callbacks, code becomes ugly messy -CALLBACK HELL , error handling is complicated
+   we give a function to run after something finishes
+eg using setTimeout():
+ console.log("a");
+ setTimeout (()=>{console.log("this runs later after  sec");},2000);
+ console.log("end");
+
+output:
+start
+end
+this runs later after  sec
+
+PROMISES:
+  cleaner than call backs 
+ error handling us done with .catch()
+ cleaner way to handle async tasks'
+ a promise is like saying hey i ll promise to give u some data later
+ 
+.then() and .catch() - help to handle result of a promise
+a).then() -> runs when promise succeeds
+b).catch() -> runs if promises fails
+
+fetch("url")
+ .then(response => response.json()) //converts response to JSON
+ .then(data => console.log(data))   //logs the data
+ .catch(error => console.error("Error:",error); //handles error
+
+ASYNC/AWAIT:
+   error handling done with try/catch , supereasy,modernstandard
+   simple, cleaner way to use promises
+EXAMPLE :
+  async function getData(){
+try{
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data);
+   } catch(err){
+   console.error(err);
+ }
+}
+
+
+
