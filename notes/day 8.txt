@@ -1,0 +1,7 @@
+data structures :
+in python for arrays we have to import but list is in built
+
+in list we can include different dta types integers, string , boolean
+del function is there in list del list1[i]
+
+dictionaries :
