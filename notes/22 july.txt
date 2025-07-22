@@ -1,0 +1,13 @@
+React is using virtual DOM in memory  which allows it to efficiently update the actual browser.
+Efficiently update the actual broswer DOM by only rendering the necessary changes  to get improved performance.
+
+jsx - javascript XML which is a syntax extension allows writing HTML like code within javascript language which makes easier to define UI structure.
+
+Everything in react is trated as a component.
+
+SPA - sinle page application..same url for all pages...when u click links the url wont change in the tab, 
+but in other websites if we see the url keep changes if we click on links that are available in the website, it takes to different pages.
+
+
+we write arrow function just like in javascript we wrote.
+These arrow functions are used to write functions where they are used as also variables , that is an advantage of it.

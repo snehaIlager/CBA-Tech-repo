@@ -1,0 +1,21 @@
+finite set of statements that grantees an optimal solution in finite interval of time - algorithm , 
+
+GOOD ALGORITHM?
+run in less time
+consume less memory
+
+RUNNING TIME OF AN ALGORITHM:
+depends upon:
+input size
+nature of input
+
+Time complexity of binary search algorithm :
+O(log n)
+
+O(n!) - highest time complexity
+
+best case time complexity of linear search - 0(1)
+
+time complexity of merge sort in worst case- O(n logn)
+
+
